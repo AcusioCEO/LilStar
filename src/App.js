@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import { BrowserRouter } from "react-router-dom";
+
+//import Routes
 
 //import styles
 import "./styles/App.css";
@@ -7,21 +10,21 @@ import "./styles/AudioPlayer.css";
 
 // import Home from "./components/Home";
 import Navigation from "./components/Navigation";
+import Routing from "./routes/Routing";
 import AudioPlayer from "./components/AudioPlayer";
 
 class App extends Component {
   render() {
     return (
-      <div>
-        {/* <Home /> */}
-        <br />
-        <Navigation />
-        <hr />
-
-        <AudioPlayer />
-        {/* <MusicPlayer playlist={playlist} /> */}
-        <hr />
-      </div>
+      <BrowserRouter>
+        <div>
+          <Navigation />
+          <br />
+          <br />
+          <Routing />
+          <AudioPlayer />
+        </div>
+      </BrowserRouter>
     );
   }
 }

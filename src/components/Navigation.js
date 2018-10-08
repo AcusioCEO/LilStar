@@ -1,21 +1,22 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 
 class Navigation extends Component {
   render() {
     return (
-      <ul>
-        <li>
-          <a class="active" href="#home">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="#news">News</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
+      <div>
+        <ul>
+          <li>
+            <NavLink to="/">Home </NavLink>
+          </li>
+          <li>
+            <NavLink to="/Contact">Contact </NavLink>
+          </li>
+          <li>
+            <NavLink to="/Content">Content</NavLink>
+          </li>
+        </ul>
+      </div>
     );
   }
 }

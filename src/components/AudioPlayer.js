@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class AudioPlayer extends Component {
   render() {
     return (
-      <div>
+      <div className="player">
         <img src={process.env.PUBLIC_URL + "/roxstarLogo.png"} alt="CoverArt" />
         <audio controls="controls" id="audio_player">
           <source

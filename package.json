@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.2.0",
     "react": "^16.5.2",
     "react-bootstrap": "^0.32.4",
     "react-bootstrap-navbar-offcanvas": "^1.0.3",
@@ -10,6 +11,7 @@
     "react-dom": "^16.5.2",
     "react-favicon": "0.0.14",
     "react-responsive-music-player": "^0.3.0",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.4"
   },
   "scripts": {
