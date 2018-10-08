@@ -1,12 +1,9 @@
 import React, { Component } from "react";
+import { Grid, Col, Row } from "react-bootstrap";
 
 class Home extends Component {
   render() {
-    return (
-      <div>
-        <h1>This is your Home page!</h1>
-      </div>
-    );
+    return <div />;
   }
 }
 export default Home;

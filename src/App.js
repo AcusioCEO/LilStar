@@ -19,8 +19,7 @@ class App extends Component {
       <BrowserRouter>
         <div>
           <Navigation />
-          <br />
-          <br />
+
           <Routing />
           <AudioPlayer />
         </div>
