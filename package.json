@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
+    "react-bootstrap-navbar-offcanvas": "^1.0.3",
+    "react-bootstrap-sidebar": "0.0.1",
     "react-dom": "^16.5.2",
     "react-favicon": "0.0.14",
     "react-responsive-music-player": "^0.3.0",

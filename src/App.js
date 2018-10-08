@@ -1,25 +1,26 @@
 import React, { Component } from "react";
-import "./App.css";
-import MusicPlayer from "react-responsive-music-player";
 
-//importing components
-import Home from "./components/Home";
+//import styles
+import "./styles/App.css";
+import "./styles/Navigation.css";
+import "./styles/AudioPlayer.css";
 
-const playlist = [
-  {
-    url: process.env.PUBLIC_URL + "/Faded.mp3",
-    cover: process.env.PUBLIC_URL + "/roxstarLogo.png",
-    title: "Faded",
-    artist: ["Lil Star"]
-  }
-];
+// import Home from "./components/Home";
+import Navigation from "./components/Navigation";
+import AudioPlayer from "./components/AudioPlayer";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Home />
-        <MusicPlayer playlist={playlist} />
+        {/* <Home /> */}
+        <br />
+        <Navigation />
+        <hr />
+
+        <AudioPlayer />
+        {/* <MusicPlayer playlist={playlist} /> */}
+        <hr />
       </div>
     );
   }
